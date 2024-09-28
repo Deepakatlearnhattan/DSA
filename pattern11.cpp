@@ -11,11 +11,11 @@ int main(){
 
     while(row<=n){
 
+
         int col = 1;
-
-        while(col<=row){
-
-            cout << "*";
+        while(col<=n){
+            char ch = ('A' + row - 1);
+            cout << ch << " ";
             col = col + 1;
         }
         cout << endl;
@@ -23,13 +23,11 @@ int main(){
     }
 }
 
-
 /*OUTPUT:-
-
-*
-**
-***
-****
-*****
-
+    AAAAAAAAAAAA
+    BBBBBBBBBBBB
+    CCCCCCCCCCCC
+    DDDDDDDDDDDD
+    EEEEEEEEEEEE
+    FFFFFFFFFFFF
 */
